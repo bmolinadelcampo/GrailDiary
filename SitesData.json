@@ -1,0 +1,52 @@
+{"sites": [
+	{
+	"name": "Angkor Wat",
+	"country": "Cambodia",
+	"buildingDate": "XII Century"
+	},
+	{
+	"name": "Sidney Opera House",
+	"country": "Australia",
+	"buildingDate": "1973"
+	},
+	{
+	"name": "Stonehenge",
+	"country": "United Kingdom",
+	"buildingDate": "3,000 B.C."
+	},
+	{
+	"name": "Taj Mahal",
+	"country": "India",
+	"buildingDate": "1632"
+	},
+	{
+	"name": "The Eiffel Tower",
+	"country": "France",
+	"buildingDate": "1889"
+	},
+	{
+	"name": "Pyramids of Giza",
+	"country": "Egypt",
+	"buildingDate": "2,500 B.C."
+	},
+	{
+	"name": "Machu Picchu",
+	"country": "Peru",
+	"buildingDate": "1440"
+	},
+	{
+	"name": "The Great Wall",
+	"country": "China",
+	"buildingDate": "220 B.C."
+	},
+	{
+	"name": "The Empire State Building",
+	"country": "United States",
+	"buildingDate": "1931"
+	},
+	{
+	"name": "The Sistine Chapel",
+	"country": "Vatican City",
+	"buildingDate": "1512"
+	}
+]}

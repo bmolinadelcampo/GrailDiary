@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		974B3E961CDA0A3D00B1FBBD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974B3E951CDA0A3D00B1FBBD /* DetailViewController.swift */; };
 		97FBDE221CD95E6400F6E118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FBDE211CD95E6400F6E118 /* AppDelegate.swift */; };
 		97FBDE241CD95E6400F6E118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FBDE231CD95E6400F6E118 /* ViewController.swift */; };
 		97FBDE271CD95E6400F6E118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FBDE251CD95E6400F6E118 /* Main.storyboard */; };
@@ -14,9 +15,11 @@
 		97FBDE2C1CD95E6400F6E118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FBDE2A1CD95E6400F6E118 /* LaunchScreen.storyboard */; };
 		97FBDE341CD9641900F6E118 /* SitesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 97FBDE331CD9641900F6E118 /* SitesData.json */; };
 		97FBDE361CD9662500F6E118 /* SiteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FBDE351CD9662500F6E118 /* SiteTableViewCell.swift */; };
+		97FBDE381CD9681C00F6E118 /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FBDE371CD9681C00F6E118 /* Site.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		974B3E951CDA0A3D00B1FBBD /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		97FBDE1E1CD95E6400F6E118 /* GrailDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrailDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FBDE211CD95E6400F6E118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97FBDE231CD95E6400F6E118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		97FBDE2D1CD95E6400F6E118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97FBDE331CD9641900F6E118 /* SitesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SitesData.json; sourceTree = "<group>"; };
 		97FBDE351CD9662500F6E118 /* SiteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteTableViewCell.swift; sourceTree = "<group>"; };
+		97FBDE371CD9681C00F6E118 /* Site.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Site.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		974B3E971CDA0A4C00B1FBBD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				97FBDE371CD9681C00F6E118 /* Site.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		974B3E981CDA0A5600B1FBBD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				97FBDE231CD95E6400F6E118 /* ViewController.swift */,
+				974B3E951CDA0A3D00B1FBBD /* DetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		974B3E991CDA0A6500B1FBBD /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				97FBDE351CD9662500F6E118 /* SiteTableViewCell.swift */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
 		97FBDE151CD95E6400F6E118 = {
 			isa = PBXGroup;
 			children = (
@@ -59,8 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				97FBDE211CD95E6400F6E118 /* AppDelegate.swift */,
-				97FBDE231CD95E6400F6E118 /* ViewController.swift */,
-				97FBDE351CD9662500F6E118 /* SiteTableViewCell.swift */,
+				974B3E981CDA0A5600B1FBBD /* Controllers */,
+				974B3E991CDA0A6500B1FBBD /* Custom Cells */,
+				974B3E971CDA0A4C00B1FBBD /* Models */,
 				97FBDE251CD95E6400F6E118 /* Main.storyboard */,
 				97FBDE281CD95E6400F6E118 /* Assets.xcassets */,
 				97FBDE2A1CD95E6400F6E118 /* LaunchScreen.storyboard */,
@@ -144,6 +174,8 @@
 			files = (
 				97FBDE361CD9662500F6E118 /* SiteTableViewCell.swift in Sources */,
 				97FBDE241CD95E6400F6E118 /* ViewController.swift in Sources */,
+				974B3E961CDA0A3D00B1FBBD /* DetailViewController.swift in Sources */,
+				97FBDE381CD9681C00F6E118 /* Site.swift in Sources */,
 				97FBDE221CD95E6400F6E118 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +324,7 @@
 				97FBDE321CD95E6400F6E118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
